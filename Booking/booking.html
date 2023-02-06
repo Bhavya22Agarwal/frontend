@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Little Lemon</title>
+        <link href="../Stylesheet/styles.css" rel="stylesheet">
+        <link href="../Stylesheet/formstyle.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img src="../Assests/logo.png">
+        </header>
+        <nav>
+            <ul>
+                <a href="../Home/home.html">Home</a>
+                <a href="../Menu/Menu.html">Menu</a>
+                <a href="../Blog/blog.html">Blog</a>
+            </ul>
+        </nav>
+        <main>
+            <h1 class="text">Book A Table</h1>
+            <form method="POST">
+                <fieldset>
+                    <legend>Table Size</legend>
+                    <label id="size">
+                        <input type="radio" name="size" value="2">2 Seater
+                    </label>
+                    <label>
+                        <input type="radio" name="size" value="4" checked>4 Seater
+                    </label>
+                    <label>
+                        <input type="radio" name="size" value="6">6 Seater
+                    </label>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Location</legend>
+                    <label id="location">
+                        <input type="radio" name="location" checked>Indoor
+                    </label>
+                    <label>
+                        <input type="radio" name="location">Outdoor
+                    </label>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Others</legend>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                      </div>
+                      <div>
+                        <label for="date">Date of booking</label>
+                        <input type="date" id="date" name="dateofbooking" required>
+                      </div>
+                      <div>
+                        <label for="people">No of People</label>
+                        <input type="number" id="people" name="noofpeople" required min="1">
+                      </div>
+                      <div>
+                        <input type="checkbox" id="policy" name="cancellation">
+                        <label for="policy">I agree to the cancellation policy</label>
+                      </div>
+                </fieldset>
+                <div>
+                    <button type="submit" class="button">Book Table</button>
+                </div>
+            </form>
+        </main>
+        <footer>Copywright Little Lemon</footer>
+    </body>
+</html> 

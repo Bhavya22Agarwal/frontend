@@ -1,0 +1,52 @@
+form{
+    text-align: center;
+}
+fieldset{
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+label{
+    margin-bottom: 13px;
+}
+input{
+    margin-bottom: 12px;
+}
+
+#first_name{
+    width: 9rem;
+}
+
+#last_name{
+    width: 9rem;
+}
+
+#email{
+    width: 11rem;
+}
+
+#pswd{
+    width:10rem;
+}
+
+#cpswd{
+    width: 6rem;
+}
+
+#people{
+    width:8rem
+}
+.button{
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 15px;
+    margin-left:auto;
+    margin-right:auto;
+    width: 15%;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+.button:active{
+    background-color: crimson;
+}

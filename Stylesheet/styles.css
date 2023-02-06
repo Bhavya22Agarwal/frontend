@@ -1,0 +1,25 @@
+header img{
+    display:block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 150px;
+}
+nav {
+    text-align: center;
+}
+.text{
+    text-align: center;
+    color: brown;
+}
+p{
+    text-align: center;
+}
+footer img{
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    height: 120px;
+    width: 120px;
+}

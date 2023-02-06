@@ -1,0 +1,67 @@
+p{
+    text-align: left;
+}
+header img{
+    width: 20%;
+    height: 50px;
+}
+nav{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 0;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    background-color:darkcyan;
+    border-radius: 5px;
+}
+
+nav a{
+    margin-right: 5px;
+    color:darkgrey;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+section{
+    display: flex;
+}
+
+.heading1{
+    background-image: url(../Assests/pasta.jpeg);
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 3%;
+    flex: 1 1 auto;
+    color:white;
+}
+.heading1{
+    margin-bottom: 2rem;
+}
+.heading1 h1{
+    font-size: 5rem;
+}
+.heading1 p{
+    font-size: 2rem;
+}
+.heading{
+    background-color: bisque;
+    margin-right: 1rem;
+    border-radius: 5px;
+    padding: 1rem;
+}
+footer{
+    display: flex;
+}
+footer div{
+    flex: 1;
+}
+.foot{
+    margin-top: 35px;
+    text-decoration: solid;
+    text-align: right;
+}

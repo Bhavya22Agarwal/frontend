@@ -29,6 +29,18 @@
     width: 100%;
 }
 
+.loc{
+    display: flex;
+    align-items: center;
+}
+
+.loc img{
+    display: flex;
+    margin-top: 12px;
+    align-items: center;
+    height: 25px;
+}
+
 .sicon{
     height: 22px !important;
     padding: 5px;

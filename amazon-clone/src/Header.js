@@ -7,6 +7,14 @@ function Header() {
         <img  
             className= 'hdlogo'
             src="https://pngimg.com/uploads/amazon/amazon_PNG11.png" /> 
+        <div className='loc'>
+            <img
+                src="Assets/location.png" />
+            <div className='navs'>
+                <span className='one'>Deliver to</span>
+                <span className='two'>India</span>
+            </div>
+        </div>
         <div className='search'>
             <input className='input' type="text"></input>
             <img

@@ -1,8 +1,8 @@
 .header{
-    height: 60px;
+    height: 80px;
     display: flex;
     align-items: center;
-    background-color: black;
+    background-color: rgb(19,25,33);
     position: sticky;
     top: 0;
     z-index: 100;
@@ -15,20 +15,6 @@
     margin-top: 18px;
 }
 
-.search{
-    display: flex;
-    flex: 1;
-    align-items: center;
-    border-radius: 14px;
-}
-
-.input{
-    height: 12px;
-    padding: 10px;
-    border: none;
-    width: 100%;
-}
-
 .loc{
     display: flex;
     align-items: center;
@@ -38,16 +24,52 @@
     display: flex;
     margin-top: 12px;
     align-items: center;
-    height: 25px;
+    height: 30px;
+}
+
+.search{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.drp{
+    height: 22px !important;
+    font-size: 15px;
+    padding: 14px;
+    padding-right: 0;
+    background-color:rgb(232, 232, 232);
+    text-decoration: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.downarrow{
+    transform: rotate(90deg);
+    height: 22px !important;
+    padding: 14px;;
+    background-color:rgb(232, 232, 232);
+}
+
+.input{
+    height: 30px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    color: rgb(127, 127, 127);
 }
 
 .sicon{
     height: 22px !important;
-    padding: 5px;
-    background-color: #cd9042;
+    padding: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(254,189,105);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
-.navbar{
+.hdoption{
     display: flex;
     justify-content: space-evenly;
 }
@@ -61,11 +83,11 @@
 }
 
 .one{
-    font-size: 10px;
+    font-size: 13px;
 }
 
 .two{
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 800;
 }
 
@@ -79,3 +101,5 @@
     margin-left: 10px;
     margin-right: 10px;
 }
+
+

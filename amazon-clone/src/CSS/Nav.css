@@ -1,0 +1,27 @@
+.navbar{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(35,47,62);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navimg{
+    margin-left: 18px;
+}
+
+.navmenu{
+    font-size: 15px;
+    font-weight: bolder;
+    margin-right: 12px;
+}
+
+.navoption{
+    display: flex;
+    font-size: 17px;
+    margin: 12px;
+    justify-content: space-evenly;
+}

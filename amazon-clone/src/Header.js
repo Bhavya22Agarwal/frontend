@@ -16,19 +16,21 @@ function Header() {
             </div>
         </div>
         <div className='search'>
-            <input className='input' type="text"></input>
+            <abbr title="search in" className='drp'>All</abbr>
+            <img className= "downarrow" src="Assets/downarrow.png" />
+            <input className='input' type="text" value="Search Amazon"></input>
             <img
                 className='sicon'
                 src="Assets/Searchicon.png" alt={"logo"} />
         </div>
-        <div className='navbar'>
+        <div className='hdoption'>
             <div className='navs'>
-                <span className='one'>Hello</span>
-                <span className='two'>Sign In</span>
+                <span className='one'>Hello,sign in</span>
+                <span className='two'>Accounts&Lists</span>
             </div>
             <div className='navs'>
                 <span className='one'>Return</span>
-                <span className='two'>Orders</span>
+                <span className='two'>& Orders</span>
             </div>
             <div className='navs'>
                 <span className='one'>Your</span>

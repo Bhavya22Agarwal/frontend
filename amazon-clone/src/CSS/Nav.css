@@ -25,3 +25,9 @@
     margin: 12px;
     justify-content: space-evenly;
 }
+.rightnav{
+    display: flex;
+    font-size: 17px;
+    margin-left: 500px;
+    font-weight: bolder;
+}

@@ -11,6 +11,7 @@ function Nav() {
         <span className='navoption'>Registry</span>
         <span className='navoption'>Gift Card</span>
         <span className='navoption'>Sell</span>
+        <span className='rightnav'>Shop deals in Electronics</span>
     </div>
   )
 }

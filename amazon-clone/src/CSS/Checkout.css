@@ -1,0 +1,15 @@
+.checkout_left{
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+}
+
+.items{
+    display: inline;
+    color: rgb(0,113,133);
+}
+
+.price{
+    text-align: right;
+    color: grey;
+}

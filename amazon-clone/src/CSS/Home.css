@@ -1,3 +1,10 @@
+.homerow{
+    display: flex;
+    z-index: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .image{
     width: 100%;
     z-index: -1;

@@ -1,12 +1,15 @@
 import React from 'react'
 import './CSS/Header.css'
+import {Link} from 'react-router-dom'
 
 function Header() {
   return (
     <div className='header'>
-        <img  
-            className= 'hdlogo'
-            src="https://pngimg.com/uploads/amazon/amazon_PNG11.png" /> 
+        <Link to='/'>
+            <img  
+                className= 'hdlogo'
+                src="https://pngimg.com/uploads/amazon/amazon_PNG11.png" />
+        </Link> 
         <div className='loc'>
             <img
                 src="Assets/location.png" />
@@ -37,7 +40,9 @@ function Header() {
                 <span className='two'>Prime</span>
             </div>
             <div className='cart'>
-                <img src='Assets/Basket.png' />
+                <Link to="/cart">
+                    <img src='Assets/Basket.png' />
+                </Link>
                 <span className='basketcount'>0</span>
             </div>
         </div>
